@@ -32,7 +32,7 @@ const App = () => {
     loginUser: (...params) => setAppStates(loginUser([...params])),
     logOut: (...params) => setAppStates(logOut([...params])),
   };
-  console.log(appStates, " login user");
+  // console.log(appStates, " login user");
   return (
     <Router>
       <div className="min-h-screen bg-gray-100 p-4">
